@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cairo:wght@600&family=La+Belle+Aurore&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: orange ;
+    height: 50px;
+    border-radius: 50px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.companyname, .companyname1 {
+    text-transform: uppercase;
+    font-family: 'Cairo', sans-serif;
+    position: relative; bottom: 22px;
+    color:slategrey ;
+}
+.link{
+    text-transform: uppercase;
+}
+.namelogo{
+    display: flex;
+    padding-left: 30px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+.icons,.anchors{
+    list-style-type: none;
+    gap: 30px;
+
+}
+ul{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 30px;
+}
+.icons{
+    padding-right: 50px;
+}
+.companyname::first-letter{
+    font-size: larger;
+    padding-left: 10px;
+}
+.companyname1::first-letter {
+    font-size: larger;
+}
+.aside{
+    display: grid;
+    margin-top: 30px;
+}
+span{
+    display: block;
+}
+h1{
+    text-transform: uppercase;
+}
+.you {
+    padding-left: 75px;
+}
+.world{
+    padding-left: 52px;
+}
+p{
+    padding-left: 50px;
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.2;
+}
+.valued{
+    padding-left: 25px;
+}
+.we{
+    padding-left:14px ;
+}
+.lives{
+    padding-left:100px;
+}
+.let-us{
+    padding-left: 60px;
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.1;
+    font-size: 2.5em;
+}
+.let{
+    padding-left: 5px;
+}
+.email{
+    width: 250px;
+    /* height: 25px; */
+    padding: 7px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 45px;
+}
+.get-started{
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 80px;
+    background-color: orange;
+    border: orange;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.image img{
+    width: 250px;
+    height: 500px;
+    border-radius: 30px;
+    margin: 15px;
+
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.image-section{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
